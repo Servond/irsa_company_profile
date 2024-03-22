@@ -1,13 +1,9 @@
+export const dynamic = "force-dynamic";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest) {
   const result = await fetch(
-    "https://randomuser.me/api/?results=4&inc=gender,name,email,phone,cell,picture",
-    {
-      next: {
-        revalidate: 3600,
-      },
-    }
+    "https://randomuser.me/api/?results=4&inc=gender,name,email,phone,cell,picture"
   );
   if (!result.ok) {
     throw new Error("Failed to fetch data");
