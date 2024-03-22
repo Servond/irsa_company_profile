@@ -1,4 +1,3 @@
-export const dynamic = "force-dynamic";
 import {
   Box,
   Flex,
@@ -7,7 +6,6 @@ import {
   Img,
   SimpleGrid,
   Text,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import React from "react";
 import { MdMail } from "react-icons/md";
@@ -34,9 +32,9 @@ type resultType = {
 };
 
 async function getData() {
-  const url = process.env.NEXT_PUBLIC_API_URL;
-  console.log("🚀 ~ getData ~ url:", url);
-  const res = await fetch(`${url}/api/teams`);
+  const url =
+    "https://randomuser.me/api/?results=4&inc=gender,name,email,phone,cell,picture";
+  const res = await fetch(`${url}`, { cache: "no-store" });
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
