@@ -33,7 +33,7 @@ type resultType = {
 };
 
 async function getData() {
-  const url = process.env.API_URL;
+  const url = process.env.NEXT_PUBLIC_API_URL;
   console.log("🚀 ~ getData ~ url:", url);
   const res = await fetch(`${url}/api/teams`);
   if (!res.ok) {
