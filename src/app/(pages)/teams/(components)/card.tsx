@@ -33,8 +33,9 @@ type resultType = {
 };
 
 async function getData() {
-  "use server";
-  const res = await fetch(`${process.env.baseURL}/api/teams`);
+  const url = process.env.API_URL;
+  console.log("🚀 ~ getData ~ url:", url);
+  const res = await fetch(`${url}/api/teams`);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }

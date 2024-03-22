@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    // baseURL: "http://localhost:3000/",
-    baseURL: "https://company-profile-irvan.vercel.app",
+    // API_URL: "http://localhost:3000",
+    API_URL: "https://company-profile-irvan.vercel.app",
   },
 };
 
