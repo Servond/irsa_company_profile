@@ -34,8 +34,7 @@ type resultType = {
 
 async function getData() {
   "use server";
-  const res = await fetch(`${process.env.baseURL}api/teams`);
-  console.log("🚀 ~ getData ~ rocess.env:", process.env);
+  const res = await fetch(`${process.env.baseURL}/api/teams`);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
