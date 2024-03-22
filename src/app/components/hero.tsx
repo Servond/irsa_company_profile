@@ -41,8 +41,8 @@ export default function Hero() {
             fontSize={{ base: "md", md: "lg", lg: "2xl" }}
             color={"gray.500"}
           >
-            We're a band of dreamers and innovators fueled by a love for games.
-            We pour our hearts into crafting immersive experiences that
+            We&#39;re a band of dreamers and innovators fueled by a love for
+            games. We pour our hearts into crafting immersive experiences that
             transport you to new realities.
           </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>

@@ -9,7 +9,6 @@ import {
   SimpleGrid,
   Stack,
   Text,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import React, { Fragment } from "react";
 import { FaQuoteRight } from "react-icons/fa";
@@ -46,7 +45,7 @@ export default function Testimonial() {
         textAlign={{ base: "center", lg: "start" }}
         fontWeight={"bold"}
       >
-        What's people say about us?
+        What&#39;s people say about us?
       </Heading>
       <Container maxW="full" p={{ base: 5, md: 10 }}>
         <SimpleGrid
@@ -60,7 +59,7 @@ export default function Testimonial() {
               max-height={"80em"}
               spacing={4}
               p={{ base: 4, sm: 8 }}
-              bg={useColorModeValue("white", "blackAlpha.600")}
+              bg={"white"}
               borderTop="2px solid"
               borderColor="red.400"
               borderBottomLeftRadius="lg"

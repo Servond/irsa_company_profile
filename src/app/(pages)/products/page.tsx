@@ -153,7 +153,7 @@ export default function Products() {
       >
         <Flex justifyContent="center" mb={8}>
           <Heading as="h3" fontSize="3xl" fontWeight="bold" mb={3}>
-            What's people say about us ...
+            What&#39;s people say about us ...
           </Heading>
         </Flex>
         {testimonials.map((obj, index) => (

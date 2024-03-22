@@ -50,16 +50,14 @@ export default function Overview() {
             color={"whiteAlpha.800"}
             width={{ base: "60vw", lg: "40vw" }}
             display={"table-row"}
-
-            // noOfLines={[5]}
           >
             We are more than a&nbsp;video game developer – we
-            are&nbsp;architects of immersive experiences. We're not satisfied
-            with mere pixels and polygons. We craft living worlds that transcend
-            the boundaries of consoles, phones, and PCs, fostering vibrant
-            online communities that span the globe. Fueled by a collective love
-            for gaming, our team of dreamers and innovators pours their hearts
-            into creating top-rated titles like&nbsp;
+            are&nbsp;architects of immersive experiences. We&#39;re not
+            satisfied with mere pixels and polygons. We craft living worlds that
+            transcend the boundaries of consoles, phones, and PCs, fostering
+            vibrant online communities that span the globe. Fueled by a
+            collective love for gaming, our team of dreamers and innovators
+            pours their hearts into creating top-rated titles like&nbsp;
             <Text as="b">
               <Text as="u">What The Football&nbsp;SPORTS™</Text>{" "}
             </Text>
@@ -72,8 +70,8 @@ export default function Overview() {
               <Text as="u">Teamfight&nbsp;Races</Text>
             </Text>
             . These games showcase our commitment to pushing the boundaries of
-            what's possible, delivering heart-pounding challenges, captivating
-            narratives, and stunning visuals.
+            what&#39;s possible, delivering heart-pounding challenges,
+            captivating narratives, and stunning visuals.
           </Text>
         </Flex>
       </Stack>

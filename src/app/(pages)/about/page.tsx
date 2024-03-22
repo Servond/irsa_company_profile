@@ -126,13 +126,13 @@ export default function AboutUs() {
             </Stack>
           </Container>
         </Box>
-        <Box width={"70vw"} mx={"auto"}>
+        <Box width={"70vw"} mx={"auto"} pb={10}>
           <Heading
             as="h1"
             size={"4xl"}
             color={"whiteAlpha.800"}
             textAlign={"center"}
-            my={20}
+            my={10}
           >
             Meet Our Team
           </Heading>
