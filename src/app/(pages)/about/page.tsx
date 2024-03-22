@@ -1,16 +1,13 @@
 import {
   Box,
-  Button,
   Container,
   Flex,
-  HStack,
   Heading,
   Image,
   Link,
   Skeleton,
   Stack,
   Text,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import Card from "../teams/(components)/card";
 

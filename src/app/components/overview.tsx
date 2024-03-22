@@ -10,13 +10,6 @@ export default function Overview() {
       pb={16}
     >
       <Stack minH={"80vh"} direction={"column"}>
-        {/* <Heading
-          textAlign={"center"}
-          size={{ base: "xl", lg: "4xl" }}
-          color={"white"}
-        >
-          Who we are
-        </Heading> */}
         <Flex justifyContent={"center"} mb={5}>
           <Image
             height={"45vh"}
