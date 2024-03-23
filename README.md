@@ -11,6 +11,9 @@ npm run build
 
 ###
 **CSS Framework** : Chakra UI
+
 **Fonts**: Montserrat
+
 **FE** : Next.js
+
 Teams API using _randomuser.me_
