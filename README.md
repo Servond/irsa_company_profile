@@ -8,3 +8,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 npm run dev
 npm run build
 ```
+
+###
+**CSS Framework** : Chakra UI
+**Fonts**: Montserrat
+**FE** : Next.js
+Teams API using _randomuser.me_
