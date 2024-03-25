@@ -34,7 +34,7 @@ type resultType = {
 async function getData() {
   const url =
     "https://randomuser.me/api/?results=4&inc=gender,name,email,phone,cell,picture";
-  const res = await fetch(`https://${process.env.VERCEL_URL}/api/teams`, {
+  const res = await fetch(`${process.env.NEXT_API_URL}/teams`, {
     next: { revalidate: 3600 },
   });
   if (!res.ok) {
