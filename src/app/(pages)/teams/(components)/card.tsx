@@ -34,7 +34,9 @@ type resultType = {
 async function getData() {
   const url =
     "https://randomuser.me/api/?results=4&inc=gender,name,email,phone,cell,picture";
-  const res = await fetch(`${url}`, { next: { revalidate: 3600 } });
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
+    next: { revalidate: 3600 },
+  });
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
